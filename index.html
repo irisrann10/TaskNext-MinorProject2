@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskNext — Stay on top of your day</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-wrapper">
+      <header class="header">
+        <div class="header-logo">
+          <span class="logo-dot"></span>
+          <span class="logo-text">TaskNext</span>
+        </div>
+        <p class="header-sub">Stay on top of your day</p>
+      </header>
+
+      <main class="main">
+        <div class="input-card">
+          <input
+            type="text"
+            id="task-input"
+            class="task-input"
+            placeholder="What needs to be done?"
+            maxlength="120"
+            autocomplete="off"
+          />
+          <button id="add-btn" class="add-btn" aria-label="Add task">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            Add
+          </button>
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="active">Active</button>
+          <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+
+        <div id="task-list" class="task-list" role="list">
+          <div class="empty-state" id="empty-state">
+            <div class="empty-icon">✓</div>
+            <p class="empty-title">You're all clear</p>
+            <p class="empty-sub">Add a task above to get started</p>
+          </div>
+        </div>
+
+        <div class="summary-bar" id="summary-bar">
+          <span id="summary-text">0 tasks</span>
+          <button id="clear-completed-btn" class="clear-btn" style="display: none">
+            Clear completed
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
