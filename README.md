@@ -24,7 +24,8 @@ A clean, responsive task manager built with vanilla **HTML**, **CSS**, and **Jav
 task-manager/
 ├── index.html     # Page structure and markup
 ├── style.css       # All styling 
-└── script.js       # All logic and DOM manipulation 
+└── script.js       # All logic and DOM manipulation
+└── README.md       # Project documentation
 ```
 
 ## Tech Stack
