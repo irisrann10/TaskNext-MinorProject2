@@ -4,7 +4,7 @@ A clean, responsive task manager built with vanilla **HTML**, **CSS**, and **Jav
 
 ## Live Demo
 
-[Live Project URL](#) <!-- replace with your GitHub Pages / Netlify / Vercel link -->
+[Live Project URL](#) https://tasknext-lime.vercel.app/
 
 ## Features
 
@@ -23,8 +23,8 @@ A clean, responsive task manager built with vanilla **HTML**, **CSS**, and **Jav
 ```
 task-manager/
 ├── index.html     # Page structure and markup
-├── style.css       # All styling (no inline CSS)
-└── script.js       # All logic and DOM manipulation (no inline JS)
+├── style.css       # All styling 
+└── script.js       # All logic and DOM manipulation 
 ```
 
 ## Tech Stack
@@ -71,20 +71,12 @@ This project is hosted using **Vercel**:
 
 ### Live Demo
 
-https://your-project-name.vercel.app
-
-### Deploy Your Own
-
-1. Push the project to a GitHub repository.
-2. Log in to Vercel.
-3. Import the GitHub repository.
-4. Click **Deploy**.
-5. Vercel will automatically build and host the application.
+https://tasknext-lime.vercel.app/
 
 ## Author
 
 **Girish Ranjan**
-KIIT Computer Engineering Student
+KIIT Computer Science Engineering Student
 
 ## License
 
